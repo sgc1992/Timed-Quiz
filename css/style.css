@@ -1,0 +1,28 @@
+body {
+  background-color: #eff5f8
+}
+
+aside{
+  display: flex;
+  color: purple;
+}
+
+section{
+  padding: 20%;
+  text-align: center;
+}
+button{
+  background-color: purple;
+  padding: 2%;
+  color: #eff5f8;
+  cursor: pointer;
+}
+
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
