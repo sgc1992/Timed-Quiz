@@ -12,3 +12,4 @@ variable question6["6) Which of the following type of a variable is volatile?", 
 
 
 
+
