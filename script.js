@@ -1,14 +1,39 @@
-variable question1["1) Which type of JavaScript language is", "A. Object-Oriented", "B. Object-Based", "C. Assembly-language", "D. High-level", "Answer: B"];
+var startQuizButton = document.getElementsByTagName('button');
+startQuizButton.addEventListener('click',);
 
-variable question2["2) Which one of the following also known as Conditional Expression:", "A. Alternative to if-else", "B. Switch statement", "C. If-then-else statement", "D. immediate if", "Answer: D"];
+const questions =
+{
+  question: "Which type of JavaScript language is",
+  choices: [A.Object - Oriented, B.Object - Based, C.Assembly - language, D.High - level],
+  answer: B.Object - Based
+}
 
-variable question3["3)  In JavaScript, what is a block of statement?", "A. Conditional block", "B. block that combines a number of statements into a single compound statement", "C. both conditional block and a single statement", "D. block that contains a single statement", "Answer: B"];
+{
+  question: "Which one of the following also known as Conditional Expression:",
+    choices : [A.Alternative to ifelse, B.Switch statement, C.If - then -else statement, D.immediate if],
+  answer: D.immediate if
+}
 
-variable question4["4) Which of the following variables takes precedence over the others if the names are the same?", "A. Global variable", "B. The local element", "C. The two of the above", "D. None of the above", "Answer: B"];
+{
+  question: "In JavaScript, what is a block of statement?",
+    choices : [A. Conditional block, B.block that combines a number of statements into a single compound statement, C.both conditional block and a single statement, D.block that contains a single statement],
+  answer: B.block that combines a number of statements into a single compound statement
+}
 
-variable question5["5) Which one of the following is the correct way for calling the JavaScript code?", "A. Preprocessor", "B. Triggering Event", "C. RMI", "D. Function/Method", "Answer: D"];
+{
+  question: "Which of the following variables takes precedence over the others if the names are the same?",
+    choices : [A. Global variable, B.The local element, C.The two of the above, D.None of the above],
+  answer: B.block that combines a number of statements into a single compound statement
+}
 
-variable question6["6) Which of the following type of a variable is volatile?", "A. Mutable variable", "B. Dynamic variable", "C. Volatile variable", "D. Immutable variable", "Answer: A"];
+{
+  question: "Which one of the following is the correct way for calling the JavaScript code?",
+    choices : [A. Preprocessor, B.Triggering Event, C.RMI, D.Function/Method],
+  answer: D. Function/Method
+}
+
+
+
 
 
 
