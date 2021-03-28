@@ -1,5 +1,10 @@
-var startQuizButton = document.getElementsByTagName('button');
-startQuizButton.addEventListener('click',);
+document.querySelector('button').addEventListener('click',function presentQuestion(){
+//function defination
+}
+//call function
+presentQuestion();
+)
+
 
 const questions =
 {
