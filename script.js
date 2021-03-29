@@ -42,14 +42,13 @@ function setTime() {
     if(secondsLeft === 0) {
       // Stops execution of action at set interval
       clearInterval(timerInterval);
-      // Calls function to create and append image
       sendMessage();
     }
 
   }, 1000);
 }
 
-// Function to create and append colorsplosion image
+// Function to send message
 function sendMessage() {
   timeEl.textContent = "Time Finished";
  
