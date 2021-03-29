@@ -56,12 +56,6 @@ function sendMessage() {
 
 }
 setTime();
-// Function to create and append colorsplosion image
-function sendMessage() {
-  timeEl.textContent = "Time Finished";
- 
-
-}
 
 function showQuestions(questions, quizContainer) {
   // we'll need a place to store the output and the answer choices
