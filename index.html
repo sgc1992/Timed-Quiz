@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href ="./style.css"/>
   
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
   <title>Document</title>
 </head>
 
@@ -13,8 +15,12 @@
   </aside>
 
 <body>
-  <section>
-    <h1>Coding Quiz Challenge</h1>
+  <!-- hide this section -->
+  <!-- show questions -->
+  <div class="time" style="text-align:center;"></div>
+  <section class="welcome-screen">
+    
+    <h2>Coding Quiz Challenge</h1>
     <p>
       Try to answer the following code-related questions within the time limit.<br>
       Keep in mind that incorrect answers will penalize your score/time by ten seconds.
@@ -23,6 +29,11 @@
     <button id="submit">Start Quiz</button>
     <div id="results"></div>
   </section>
+
+  <section class="questions">
+    
+  </section>
+  
   <script src= "script.js"></script>
 </body>
 </html>
