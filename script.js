@@ -71,6 +71,8 @@ function showQuestions(){
   
 }
 
+answerOptions.addEventListener("click",)
+
 
 
 
