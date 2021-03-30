@@ -56,7 +56,7 @@ function sendMessage() {
  
 
 }
-setTime();
+
 
 function showQuestions(){
   welcomeScreenSec.hide();
