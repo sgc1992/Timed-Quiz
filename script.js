@@ -1,7 +1,7 @@
 var myQuestions =
   [{
     question: "Which type of JavaScript language is",
-    answers: "A.Object - Oriented, B.Object - Based, C.Assembly - language, D.High - level",
+    answers: ["A.Object - Oriented", "B.Object - Based", "C.Assembly - language", "D.High - level"],
     correctAnswer: "B.Object - Based"
   },
 
@@ -34,6 +34,7 @@ document.querySelector('#submit').addEventListener('click', function () {
 var timeEl = document.querySelector(".time");
 var secondsLeft = 60;
 var welcomeScreenSec = $(".welcome-screen");
+var questionsSections = $(".questions")
 
 function setTime() {
   // Sets interval in variable
@@ -53,13 +54,22 @@ function setTime() {
 // Function to send message
 function sendMessage() {
   timeEl.textContent = "Time Finished";
- 
-
 }
 
 
 function showQuestions(){
   welcomeScreenSec.hide();
+  questionsSections.text(myQuestions[0].question);
+  var answerOptions = $("#answerOptions")
+  for(var i = 0; i<myQuestions[0].answers.length; i++){
+    var listItem = $("<li>")
+    var answerButton = $("<button>")
+    answerButton.text(myQuestions[0].answers[i])
+    listItem.append(answerButton)
+    answerOptions.append(listItem)
+  }
+  // list answers
+  // allow users to choose an answer
 }
 
 // function showQuestions(questions, quizContainer) {
