@@ -7,22 +7,22 @@ var myQuestions =
 
   {
     question: "Which one of the following also known as Conditional Expression:",
-    answers: "A.Alternative to if else, B.Switch statement, C.If - then -else statement, D.immediate if",
+    answers: ["A.Alternative to if else", "B.Switch statement", "C.If - then -else statement", "D.immediate if"],
     correctAnswer: "D.immediate if"
   },
   {
     question: "In JavaScript, what is a block of statement?",
-    answers: "A.Conditional block, B.block that combines a number of statements into a single compound statement, C.both conditional block and a single statement, D.block that contains a single statement",
+    answers: ["A.Conditional block", "B.block that combines a number of statements into a single compound statement", "C.both conditional block and a single statement", "D.block that contains a single statement"],
     correctAnswer: "B.block that combines a number of statements into a single compound statement"
   },
   {
     question: "Which of the following variables takes precedence over the others if the names are the same?",
-    answers: "A.Global variable, B.The local element, C.The two of the above, D.None of the above",
+    answers: ["A.Global variable", "B.The local element", "C.The two of the above", "D.None of the above"],
     correctAnswer: "B.block that combines a number of statements into a single compound statement"
   },
   {
     question: "Which one of the following is the correct way for calling the JavaScript code?",
-    answers: "A.Preprocessor, B.Triggering Event, C.RMI, D.Function / Method",
+    answers: ["A.Preprocessor", "B.Triggering Event", "C.RMI", "D.Function / Method"],
     correctAnswer: "D.Function / Method"
   }]
 
@@ -71,7 +71,8 @@ function showQuestions(){
   
 }
 
-answerOptions.addEventListener("click",)
+
+
 
 
 
