@@ -1,3 +1,5 @@
+var currentQuestion = 0
+
 var myQuestions =
   [{
     question: "Which type of JavaScript language is",
@@ -59,16 +61,25 @@ function sendMessage() {
 
 function showQuestions(){
   welcomeScreenSec.hide();
-  questionsSections.text(myQuestions[0].question);
+  questionsSections.text(myQuestions[currentQuestion].question);
   var answerOptions = $("#answerOptions")
-  for(var i = 0; i<myQuestions[0].answers.length; i++){
+  answerOptions.html("")
+  for(var i = 0; i<myQuestions[currentQuestion].answers.length; i++){
     var listItem = $("<li>")
     var answerButton = $("<button>")
-    answerButton.text(myQuestions[0].answers[i])
+    answerButton.text(myQuestions[currentQuestion].answers[i])
+    answerButton.on("click", handleButton)
     listItem.append(answerButton)
     answerOptions.append(listItem)
   }
   
+}
+
+function handleButton(){
+  //TODO handle right or wrong
+  console.log("click")
+  currentQuestion++
+  showQuestions()
 }
 
 
